@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table {
+            border: 1px solid black;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Danh sách đánh giá</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>IDShoes</td>
+                <td>IDUser</td>
+                <td>Content</td>
+                <td>Star</td>
+            </tr>
+        </thead>
+        <tbody>
+            <% evaluates.forEach(function(evaluate){ %>
+                <tr>
+                    <td>
+                        <%= favorite.id %>
+                    </td>
+                    <td>
+                        <%= favorite.idShoes %>
+                    </td>
+                    <td>
+                        <%= favorite.idUser %>
+                    </td>
+                    <td>
+                        <%= favorite.content %>
+                    </td>
+                    <td>
+                        <%= favorite.star %>
+                    </td>
+                </tr>
+                <% }); %>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
