@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "858655302305",
+    "project_id": "cro2-assignment",
+    "storage_bucket": "cro2-assignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858655302305:android:192d27613c9039a66206e0",
+        "android_client_info": {
+          "package_name": "com.ph31267_asm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4C_kKyEb7AqZMo2OlMxsYi3S1jXVCuUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
